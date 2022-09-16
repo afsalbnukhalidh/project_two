@@ -1,0 +1,10 @@
+body{
+    width: 100%
+}
+.colum-one {
+    height: 100px;
+    background-size: cover;
+}
+.colum-one img {
+    width: 100%;
+}
