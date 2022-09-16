@@ -1,10 +1,30 @@
 body{
     width: 100%
 }
-.colum-one {
-    height: 100px;
-    background-size: cover;
+.designs {
+    margin: auto;
+    text-align: center;
+    color:rgb(193, 241, 199);
 }
-.colum-one img {
+.section-sty {
+    background-color:rgb(83, 76, 76);
+}
+.nav-section {
+    display: inline-block;
+}
+.para-align {
+    text-align: center;
+   padding: 30px 30px 0;
+}
+.image-specification {
+    display: inline-block;
+    position: relative;
+    margin-left: -25px;
+}
+.image-specification img {
+    height: 250px;
     width: 100%;
+}
+.image-padding {
+    padding: 50px 0;
 }
