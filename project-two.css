@@ -26,5 +26,31 @@ body{
     width: 100%;
 }
 .image-padding {
-    padding: 50px 0;
+    padding: 50px 0 20px;
+}
+.common-column {
+    position: relative;
+    float: left;
+    height: 300px; 
+  }
+  
+  .left-side {
+    width: 20%;
+    background-color: darkgrey;
+  }
+  
+  .right-side {
+    width: 80%;
+    background-color: aliceblue;
+  }
+.rw-size {
+  height: 75px;
+}
+.btn-beauty {
+    border: none;
+    background-color: bisque;
+}
+.rw-size :hover{
+    background-color: rgb(143, 129, 129);
+    color: white;
 }
