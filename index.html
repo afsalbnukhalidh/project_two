@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -11,7 +12,7 @@
     <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="project-two.css" rel="stylesheet">
 <body>
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark" aria-label="Fourth navbar example">
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" aria-label="Fourth navbar example">
     <div class="container">
       <a class="navbar-brand" href="#">Crowne tourism</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#ct-navbar" aria-controls="ct-navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,10 +25,10 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Images</a>
+            <a class="nav-link" href="#pictures">Images</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link">programs</a>
+            <a class="nav-link" href="#image">programs</a>
           </li>
         </ul>
       </div>
@@ -48,13 +49,13 @@
       <h2>About us</h2>
       <p><b>Crowne tourism</b> is a company based in <mark> KERALA</mark>. From past four years growing in travel industry we provide all types of travel services like Holiday Packages, pilgrims Packages, festival packages. The company provides suitable caravan for transport and accommodation also. We also have well experienced services for adventure activities like trekking, camping, river rafting etc. We believe in <i>Atithi Devo Bhava</i> and we are 24×7 at your service. Crowne tourism promises you to provide best of its services.</p>
       <div class="container-row image-padding">
-        <div class="col-lg-3 col-md-6 col-sm-12 image-specification"><img src="assets/dist/img/adventure.jfif"></div>
-        <div class="col-lg-3 col-md-6 col-sm-12 image-specification"><img src="assets/dist/img/cara.jfif"></div>
-        <div class="col-lg-3 col-md-6 col-sm-12 image-specification"><img src="assets/dist/img/w.jfif"></div>
-        <div class="col-lg-3 col-md-6 col-sm-12 image-specification"><img src="assets/dist/img/water-falls.jfif"></div>
+        <div class="col-lg-3 col-md-6 col-sm-12 col-12 image-specification" id="pictures"><img src="assets/dist/img/adventure.jfif"></div>
+        <div class="col-lg-3 col-md-6 col-sm-12 col-12 image-specification"><img src="assets/dist/img/cara.jfif"></div>
+        <div class="col-lg-3 col-md-6 col-sm-12 col-12 image-specification"><img src="assets/dist/img/w.jfif"></div>
+        <div class="col-lg-3 col-md-6 col-sm-12 col-12 image-specification"><img src="assets/dist/img/water-falls.jfif"></div>
       </div>
     </section>  
-  <section class="lining">
+  <section class="lining mt-5"  id="image">
      <div class="container">
         <ul class="nav nav-tabs">
             <li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" href="#caravan">Caravan</a></li>
@@ -114,12 +115,12 @@
             </div>
           </div>
       </div>
-
-    <div>
-      <a href="https://www.instagram.com/afsalkkhalidh" target="_blank" class="side-change"><h4>SEE OUR INSTAGRAM</h4></a>
-    </div>
+    </section>
+    <section class="side-change">
+      <a href="https://www.instagram.com/afsalkkhalidh" target="_blank"><h4>SEE OUR INSTAGRAM</h4></a>
+    </section>
     
-  </section>
+ 
   <footer class="foot-color">
     <div class="row container tb-content">
         <div class="col-lg-3 col-sm-6 col-12" >
@@ -146,10 +147,13 @@
         <div class="col-lg-3 col-sm-6 col-12">
           <h4>CONTACT US</h4>
           <p>Say hello to mail for our reply</p>
-          <p><b>hello@pioneer.com</b></p>
-           <p><button class="logo-content"><img src="assets/dist/img/insta.jpg"></button>
-            <button class="logo-content"><img src="assets/dist/img/face.jpg"></button>
-            <button class="logo-content"><img src="assets/dist/img/twitter.png"></button></p> 
+          <a href="mailto:bnukhalidh@gmail.com" class="text-decoration-none text-black-50"><b>hello@pioneer.com</b></a>
+          <br>
+          <div class="mt-4">
+           <button class="logo-content"><a href="http://www.instagram.com/afsalkkhalidh" target="_blank"><img src="assets/dist/img/insta.jpg"></a></button>
+            <button class="logo-content"><a href="http://www.facebook.com/afsal.koottungal.5" target="_blank"><img src="assets/dist/img/face.jpg"></a></button>
+            <button class="logo-content"><a href="http://www.instagram.com/afsalkkhalidh" target="_blank"><img src="assets/dist/img/twitter.png"></a></button></p> 
+          </div>
         </div>
     </div>
   </footer>
@@ -158,3 +162,4 @@
       
 </body>
 </html>
+>>>>>>> origin/master

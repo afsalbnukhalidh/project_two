@@ -74,20 +74,20 @@ body{
     padding: 0 3rem;
 }
 .side-change {
-    float: right;
-    margin: 3rem 4rem 3rem 0;
-    color: black;
-    text-decoration: none;
-    
+    text-align: right;
+    padding: 3rem 4rem; 
 }
-.side-change:hover {
+.side-change a {
+    color: black;
+    text-decoration: none; 
+}
+.side-change a:hover {
     color: blue;
 }
 .tb-content{
     width: 100%;
-    position:relative;
-    margin-top: 50px;
-    margin-left: 10px;
+    margin: auto;
+    padding: 30px 0;
   }
   .logo-content {
     display: inline-block;
